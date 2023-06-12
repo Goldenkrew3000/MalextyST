@@ -1,0 +1,10 @@
+SerialReceive:
+Receives and formats incoming RS232 serial (MAX232 IC)
+
+SerialAzControl:
+Receives, formats, and uses the azimuth data to control a stepper motor
+with an A4988 IC.
+Issues: When AZ gets to 360 deg, it rotates around fully, fix
+Libraries: StepperDriver (https://github.com/laurb9/StepperDriver)
+Also only takes integer, but is definitely enough resolution for satellite
+dish pointing. So no decimals, only number (can be negative, i think)

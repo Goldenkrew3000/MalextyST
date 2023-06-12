@@ -1,0 +1,6 @@
+#ifndef SCHANGECONFIGHANDLER_HPP_INCLUDED
+#define SCHANGECONFIGHANDLER_HPP_INCLUDED
+
+void sChangeConfigHandler_Entry();
+
+#endif

@@ -1,0 +1,13 @@
+Dependencies:
+
+libcurl4-openssl-dev (Debian package) Curl
+catkin (Debian package) For Serial library
+
+DEPENDENCIES INCLUDED IN THE PROJECT:
+
+SGP4 (https://github.com/dnwrnr/sgp4)
+Non modified but included in SGP4/
+
+Serial (https://github.com/wjwwood/serial)
+Modified to fit the folder structure, in Serial/
+Note: This library is only modified to compile correctly in a UNIX environment, Win32 will not work currently

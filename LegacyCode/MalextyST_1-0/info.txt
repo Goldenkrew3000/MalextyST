@@ -1,0 +1,63 @@
+Info:
+Exit Program - Done
+
+Files and their uses:
+
+Compiling:
+> build.sh --- To easily run cmake build
+> CMakeLists.txt --- Cmake build file
+
+Libraries:
+> colorManager.hpp --- This is an ANSI color colorManager
+> commonFunctions.hpp --- This is a library for handling common functions used throughout the program
+> json.hpp --- (NOT BY ME) This library is for handling JSON
+
+Files:
+> main.cpp --- Main entry point and exit point of the program
+
+Main Manu Handler (beginning m stands for menu)
+> mMainHandler.cpp
+> mMainHandler.hpp
+
+Exit Menu Handler
+> mExitHandler.cpp
+> mExitHandler.hpp
+
+Config Handler (beginning s stands for system)
+> sConfigHandler.cpp
+> sConfigHandler.hpp
+
+File Handler
+> sFileHandler.cpp
+> sFileHandler.hpp
+
+Change Config Menu Handler
+> mChangeConfigHandler.cpp
+> mChangeConfigHandler.hpp
+
+Update TLE Menu Handler
+> mUpdateTLE.cpp
+> mUpdateTLE.hpp
+
+Update TLE Handler
+> sUpdateTLE.cpp
+> sUpdateTLE.hpp
+
+Generate Config Menu Handler
+> mGenConfig.cpp
+> mGenConfig.hpp
+
+Generate Config Handler
+> sGenConfig.cpp
+> sGenConfig.hpp
+
+Check TLE Age Menu Handler
+> mTleAgeCheck.cpp
+> mTleAgeCheck.hpp
+
+Check TLE Age Handler
+> sTleAgeCheck.cpp
+> sTleAgeCheck.hpp
+
+Defaults
+> dGenConfig.h

@@ -1,0 +1,65 @@
+{
+    "OBSERVER": {
+        "ALTITUDE": "0.7",
+        "LATITUDE": "-27.5598",
+        "LONGITUDE": "151.9507"
+    },
+    "SERIAL": {
+        "BAUDRATE": "9600",
+        "PORT": "/dev/ttyUSB0"
+    },
+    "TLE": {
+        "FILENAMES": {
+            "AMATEUR": "amateur.txt",
+            "CUBESAT": "cubesat.txt",
+            "GALILEO": "galileo.txt",
+            "GLOOPS": "glo-ops.txt",
+            "GPSOPS": "gps-ops.txt",
+            "IRIDIUM": "iridium.txt",
+            "IRIDIUMNEXT": "iridium-NEXT.txt",
+            "MOLNIYA": "molniya.txt",
+            "NASABARE": "nasabare.txt",
+            "NOAA": "noaa.txt",
+            "SCIENCE": "science.txt",
+            "TLENEW": "tle-new.txt",
+            "VISUAL": "visual.txt",
+            "WEATHER": "weather.txt"
+        },
+        "SETNAMES": {
+            "AMATEUR": "AMATEUR",
+            "CUBESAT": "CUBESAT",
+            "GALILEO": "GALILEO",
+            "GLOOPS": "GLOOPS",
+            "GPSOPS": "GPSOPS",
+            "IRIDIUM": "IRIDIUM",
+            "IRIDIUMNEXT": "IRIDIUMNEXT",
+            "MOLNIYA": "MOLNIYA",
+            "NASABARE": "NASABARE",
+            "NOAA": "NOAA",
+            "SCIENCE": "SCIENCE",
+            "TLENEW": "TLENEW",
+            "VISUAL": "VISUAL",
+            "WEATHER": "WEATHER"
+        },
+        "URLS": {
+            "AMATEUR": "http://www.celestrak.com/NORAD/elements/amateur.txt",
+            "CUBESAT": "http://www.celestrak.com/NORAD/elements/cubesat.txt",
+            "GALILEO": "http://www.celestrak.com/NORAD/elements/galileo.txt",
+            "GLOOPS": "http://www.celestrak.com/NORAD/elements/glo-ops.txt",
+            "GPSOPS": "http://www.celestrak.com/NORAD/elements/gps-ops.txt",
+            "IRIDIUM": "http://www.celestrak.com/NORAD/elements/iridium.txt",
+            "IRIDIUMNEXT": "http://www.celestrak.com/NORAD/elements/iridium-NEXT.txt",
+            "MOLNIYA": "http://www.celestrak.com/NORAD/elements/molniya.txt",
+            "NASABARE": "http://www.amsat.org/amsat/ftp/keps/current/nasabare.txt",
+            "NOAA": "http://www.celestrak.com/NORAD/elements/noaa.txt",
+            "SCIENCE": "http://www.celestrak.com/NORAD/elements/science.txt",
+            "TLENEW": "http://www.celestrak.com/NORAD/elements/tle-new.txt",
+            "VISUAL": "http://www.celestrak.com/NORAD/elements/visual.txt",
+            "WEATHER": "http://www.celestrak.com/NORAD/elements/weather.txt"
+        },
+        "SETTINGS": {
+            "TEMPFOLDER": "temp",
+            "DBNAME": "satellites.db"
+        }
+    }
+}
